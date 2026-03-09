@@ -13,5 +13,4 @@ jobs:
           net localgroup administrators runneradmin /add
 
       - name: Keep Alive
-        run: |
-          ping -t localhost
+        run: ping -t localhost
